@@ -1,0 +1,29 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# jupyter
+.ipynb_checkpoints/
+
+# secrets
+.env
+
+# ml artifacts (large files)
+faiss_db/
+figures/
+figure_meta.json
+*.pth
+*.pt
+*.npy
+*.pkl
+
+# papers (large PDFs)
+papers/
+
+# misc
+.DS_Store
+Thumbs.db
